@@ -8,3 +8,8 @@
         * [Methodology](#methodology)
         * [User contribution] (#user_contribution)
         * [Releases] (#releases)
+		
+
+##Advantages 
+
+##Disadvantages
