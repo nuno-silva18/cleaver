@@ -15,4 +15,10 @@
 ##Disadvantages
 
 
-##Features (#features)
+##[Features](#features)
+*Author credits support twitter and other social media accounts
+*Supports stylesheet customization
+*Can change themes
+*Possibility to export slide presentation
+*Allows a progress bar on slides
+*Encoded in utf-8
