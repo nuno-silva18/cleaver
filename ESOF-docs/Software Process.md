@@ -13,8 +13,8 @@
 
 ##Disadvantages
 
-
-##[Features](#features)
+<div id='features'/>
+##Features
 * Author credits support twitter and other social media accounts
 * Supports stylesheet customization
 * Can change themes
