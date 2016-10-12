@@ -9,6 +9,13 @@
         * [User contribution](#user_contribution)
         * [Opinion on the development process used](#opinion)
 
+<div id='intro'/>
+##What is Cleaver?
+
+Cleaver is an open-source software, which creates HTML slideshow presentations from a [Markdown](https://en.wikipedia.org/wiki/Markdown) file. The objective is to reduce the cost of creating short (30 seconds) presentations, with a known syntax, and without installing a proprietary software, or learning a new language. Also, being HTML, the presentations can be put online, making them available in several devices without the need to install new software. Cleaver provides a default stylesheet, but can be further customised due to its theme support for optional stylesheet, templates and javascript extensions. Such gives it a more fine-grained control over the presentations.
+The software is written in javascript, and runs over the node.js, which is also javascript. Furthermore, installing and implementing new features requires only the installation of node.js. However three languages (at least) are required in order to understand and improve Cleaver, namely Javascript (for the application itself), HTML (since it is the format in which the presentations are exported), and CSS (in order to customise the presentations).
+
+
 ##Advantages 
 
 ##Disadvantages
