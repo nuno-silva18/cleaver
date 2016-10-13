@@ -41,13 +41,22 @@ Cleaver seems to be developed primarily under the [Feature-driven development pr
 
 From the documentation available on the application’s Github, it seems that a new feature is implemented when said feature is requested by a Github user, and any other user of the website that is interested in contributing to Cleaver responds to this request and takes charge of developing said feature. The developed feature by the user must pass Cleaver’s test script in order for it to be accepted into the code and the feature be fully integrated into the application. This process is aided by the Github tools [issue tracker](https://github.com/jdan/cleaver/issues), used to discuss the implementation of new features and any bugs present in current features, and [pull requests](https://github.com/jdan/cleaver/pulls), used for reviewing and implementing the newly developed features.
 
+This development process is mainly based on these topics:
+* Simple process easily understandable by all participants. Its simplicity allows full comprehension, not only by the users but also by developers
+* The user gets stepwise access to the software although fully functional. This allows incremental requirements during the development process
+* Few requirements allow to reduce the complexity of process, lowering the risk of misunderstanding between users and developers
+* Quick development process as a whole
+* No strictness following all the steps of development process
+* Allows definition of new requirements or modifications in existing ones, during the process
+* Suitable for small projects with small development teams
+* The software is easily and quickly obtained with short development cycles due to few requirements
 <div id='opinion'/>
 
 ### Opinion on the development process used
 
 In the group’s opinion, we believe that the methodology Cleaver seems to have been developed under, Feature-driven Development (FDD), is the most adequate methodology for this type of project.
 
-The use of a software development process that allows for the iterative and incremental implementation of an application’s features is often essential for the development of open-source projects. This [type of methods](https://en.wikipedia.org/wiki/Iterative_and_incremental_development) allow for a developer who has an interesting idea but is unsure about what the user requirements for the application will be, to start developing said idea and implement changes easily and quickly based on immediate user feedback. FDD also allows for faster delivery of useful software to its users, which itself allows for the aforementioned faster user feedback and fulfilment of  the user’s requirements.
+The use of a software development process that allows for the iterative and incremental implementation of an application’s features is often essential for the development of open-source projects. This [type of methods](https://en.wikipedia.org/wiki/Iterative_and_incremental_development) allow for a developer who has an interesting idea but is unsure about what the user requirements for the application will be, to start developing said idea and implement changes easily and quickly based on immediate user feedback. FDD also allows for faster delivery of useful software to its users, which itself allows for the aforementioned faster user feedback and fulfilment of  the user’s requirements. Thus, it avoids significant cost, sometimes related to other development processes, when the request to modify a requirement came late. Having a requirement modification applied in the beginning of the interaction with the user has a cost that is considerable less than having the same modification done at the maintenance time. Furthermore, it’s easier to express an existing reality, that is visible and which we could interact with, than only a conceptual idea of a particular solution.
 
 This is in stark contrast to more sequential, plan-driven methodologies, such as the [Waterfall method](https://en.wikipedia.org/wiki/Waterfall_model) or the [Spiral Model](https://en.wikipedia.org/wiki/Spiral_model), which demand for separate and distinct phases of specification and development. This type of methodologies often have trouble accommodating change after the development process is underway, which raises significant issues when an earlier part of the project has to be altered to meet any changes in the user requirements, leading to later phases of the project having to be scrapped and reworked altogether due to their reliance on the changed earlier phase. 
 
