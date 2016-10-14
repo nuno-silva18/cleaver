@@ -25,7 +25,7 @@ The software is written in Javascript, and runs over node.js. Furthermore, insta
 * Possibility to export slide presentation
 * Allows a progress bar on slides
 * Encoded in UTF-8
-* Testing issue
+
 <div id='development'/>
 
 ## Development Process
