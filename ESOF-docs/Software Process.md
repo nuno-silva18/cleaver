@@ -9,19 +9,22 @@
         * [Opinion on the development process used](#opinion)
 
 <div id='intro'/>
+
 ##What is Cleaver?
 
-Cleaver is an open-source software, which creates HTML slideshow presentations from a [Markdown](https://en.wikipedia.org/wiki/Markdown) file. The objective is to reduce the cost of creating short (30 seconds) presentations, with a known syntax, and without installing a proprietary software, or learning a new language. Also, being HTML, the presentations can be put online, making them available in several devices without the need to install new software. Cleaver provides a default stylesheet, but can be further customised due to its theme support for optional stylesheet, templates and javascript extensions. Such gives it a more fine-grained control over the presentations.
-The software is written in javascript, and runs over the node.js, which is also javascript. Furthermore, installing and implementing new features requires only the installation of node.js. However three languages (at least) are required in order to understand and improve Cleaver, namely Javascript (for the application itself), HTML (since it is the format in which the presentations are exported), and CSS (in order to customise the presentations).
+Cleaver is an open-source software, which creates HTML slideshow presentations from a [Markdown](https://en.wikipedia.org/wiki/Markdown) file. The goal is to reduce the amount of work it takes to create short (30 seconds) presentations, with a fairly simple syntax, and without installing a proprietary software, or having to learn a new programming language. Being HTML, the presentations can also be put online, making them available in several devices without the need to install new software. Cleaver provides a default stylesheet, but can be further customised due to its theme support for optional stylesheet, templates and Javascript extensions. This gives it a more fine-grained control over the presentations.
+
+The software is written in Javascript, and runs over node.js. Furthermore, installing and implementing new features requires only the installation of node.js.
 
 <div id='features'/>
+
 ##Features
-* Author credits support twitter and other social media accounts
+* Author credits support Twitter and other social media accounts
 * Supports stylesheet customization
 * Can change themes
 * Possibility to export slide presentation
 * Allows a progress bar on slides
-* Encoded in utf-8
+* Encoded in UTF-8
 
 <div id='development'/>
 
@@ -44,6 +47,7 @@ This development process is mainly based on these topics:
 * Allows definition of new requirements or modifications in existing ones, during the process
 * Suitable for small projects with small development teams
 * The software is easily and quickly obtained with short development cycles due to few requirements
+
 <div id='opinion'/>
 
 ### Opinion on the development process used
