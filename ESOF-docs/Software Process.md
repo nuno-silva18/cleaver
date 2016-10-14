@@ -34,7 +34,7 @@ The software is written in Javascript, and runs over node.js. Furthermore, insta
 
 *Note: The group has tried to get into contact with the owner and main developer behind the project, [Jordan Scales](https://github.com/jdan), in order to get additional information on the development process behind Cleaver. Unfortunately, he has yet to respond to our e-mail.*
 
-Cleaver seems to be developed primarily under the [Feature-driven development process (FDD)](https://en.wikipedia.org/wiki/Feature-driven_development), a process in which features requested by users of the application are implemented on an iterative basis. 
+Cleaver seems to be developed primarily under the [Feature-driven development process (FDD)](https://en.wikipedia.org/wiki/Feature-driven_development), an agile process in which features requested by users of the application are implemented on an iterative and incremental basis. 
 
 From the documentation available on the application’s Github, it seems that a new feature is implemented when said feature is requested by a Github user, and any other user of the website that is interested in contributing to Cleaver responds to this request and takes charge of developing said feature. The developed feature by the user must pass Cleaver’s test script in order for it to be accepted into the code and the feature be fully integrated into the application. This process is aided by the Github tools [issue tracker](https://github.com/jdan/cleaver/issues), used to discuss the implementation of new features and any bugs present in current features, and [pull requests](https://github.com/jdan/cleaver/pulls), used for reviewing and implementing the newly developed features.
 
