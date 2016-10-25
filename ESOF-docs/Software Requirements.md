@@ -18,6 +18,12 @@
 <div id='usecases'>
 
 ## Use Cases
+* As a user
+
+<img src="./images/use_case_diagram.png"/>
+
+
+
 
 <div id='domainmodel'>
 
