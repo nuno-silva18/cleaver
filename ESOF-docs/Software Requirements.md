@@ -18,8 +18,9 @@
 <div id='usecases'>
 
 ## Use Cases
-* As a user
-
+* As a user i want to change options so i can customize the look and feel of my presentation, including author info, stylesheets, and custom templates.
+* As a user i want to be able to add my own themes so i can make the slides my own
+* As a user i want to be able to navigate through my presentation with keyboard buttons so i can easily move throughs slides
 <img src="./images/use_case_diagram.png"/>
 
 
