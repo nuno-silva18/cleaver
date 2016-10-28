@@ -64,8 +64,11 @@ The only stakeholder in the application is the User, that is, any individual tha
 ### User stories
 
 * As a User, I want to edit my options so I can customize the look and feel of my presentation, which includes author info, stylesheets, and custom templates;
+* As a User, I want to be able to edit each slide individually so that I can add an unique look to an individual slide to allow it to stand out;
 * As a User, I want to be able to add my own themes so I can make the slides my own with deeper customization options;
 * As a User, I want to be able to navigate through my presentation with keyboard buttons so I can easily move through the slides;
+* As a User, I want to be able to export my presentation as a PDF so that I can share it more easily (e.g. Slideshare);
+* As a User, I want to be able to present my slides in full screen so that my presentation is the focus of the audience's attention;
 
 <img src="./images/use_case_diagram.png"/>
 
