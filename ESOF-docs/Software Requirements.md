@@ -71,4 +71,4 @@ The “Issues” feature is can obviously lead to several problems. Namely, it i
 
 The domain model for Cleaver is relatively simple, with its conceptual classes mostly consisting of a **Core** class representing the application itself and a **Theme** class, representing the theme plugin supported by the application:
 
-<img src="./images/domainmodel.png" />
+<center><img src="./images/domainmodel.png" /><center>
