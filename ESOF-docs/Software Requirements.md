@@ -18,7 +18,8 @@ In the second stage, the requirements where additionally defined by the final us
 
 The “Issues” feature is can obviously lead to several problems. Namely, it is possible to identify the following ones: problems of understanding the users;  and/or volatility of the issues/features (resulting from different users’ languages), different and/or conflicting views of the project objectives; possible ambiguous requirements;  communication failures, possibly hampered by language barriers,  which can lead to difficulties in understanding what requirements the users intended to convey. In practice, “Issues” (i.e., bugs and new features) can be classified according to several aspects, namely unlabeled, bug, duplicate, enhancement, invalid, question and wontfix. Thus, the decision on which features to implement depends on the users’ feedback, and developers deliberation.
 
-[1] Ian Sommerville and Pete Sawyer, Requirements Engineering: A Good Practice Guide. ISBN: 978-0471974444, 1997. 
+[1] Ian Sommerville and Pete Sawyer, Requirements Engineering: A Good Practice Guide. ISBN: 978-0471974444, 1997.
+ 
 [2] [Cleaver website](https://github.com/jdan/cleaver)
 
 
