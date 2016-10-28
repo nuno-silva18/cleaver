@@ -10,13 +10,13 @@
 <div id='introreq'>
 
 ## Requirements
-Requirements are described by Sommerville and Sawyer as “descriptions of how the system should behave, or of a system property or attribute” [1]. In the cleaver project, we can identify two distinct requirement specification stages. The first stage, corresponding to the beginning of the project, is related to the developer motivations. In this stage was defined the scope and the initial set of requirements. The second stage corresponds to the continuous and incremental development of the project. This stage started with the project public release, and is still ongoing. It is possible to say that the project authors adopted an iterative development methodology, where in each iteration new features are being added.
+Requirements are described by Sommerville and Sawyer as “descriptions of how the system should behave, or of a system property or attribute” [1]. In Cleaver, we can identify two distinct requirement specification stages: The first stage, corresponding to the beginning of the project, is related to the developer motivations. In this stage the scope of the project was defined as well as the initial set of requirements. The second stage corresponds to the continuous and incremental development of the project. This stage started with the project's public release, and is still ongoing. It is possible to see that the project authors adopted an iterative development methodology, where with each iteration new features are added.
 
-As so, the boundaries of the project were defined in the initial stage by its main purpose: "simplest way to generate static HTML presentations from a simple JSON format” [2]. The authors established also the intended programming and definition languages, namely Javascript, JSON and HTML. It is possible to state that the requirements were derived from the developers social observation and analysis, in order to support people work. Also, the developers filled a gap in the slideshow context, by presenting a novel approach. As part of the requirements was also the specification of the framework supporting the application, namely NodeJS. 
+As so, the boundaries of the project were defined in the initial stage by its main purpose: "simplest way to generate static HTML presentations from a simple JSON format” [2]. The author also established the intended programming and definition languages, namely Javascript. It is possible to state that the requirements were derived from the developer's social observation and analysis, in order to support an easier workflow for people willing to learn Markdown. The developer also tried to fill a gap in the slideshow context, by going with this Markdown-oriented approach. As part of the requirements was also the specification of the framework supporting the application, namely NodeJS. 
 
 In the second stage, the requirements where additionally defined by the final users (the system stakeholders). Concerning the addition of requirements, the GitHub platform has the "Issues" feature, which allows users to submit issues found in the application, or request new features.
 
-The “Issues” feature is can obviously lead to several problems. Namely, it is possible to identify the following ones: problems of understanding the users;  and/or volatility of the issues/features (resulting from different users’ languages), different and/or conflicting views of the project objectives; possible ambiguous requirements;  communication failures, possibly hampered by language barriers,  which can lead to difficulties in understanding what requirements the users intended to convey. In practice, “Issues” (i.e., bugs and new features) can be classified according to several aspects, namely unlabeled, bug, duplicate, enhancement, invalid, question and wontfix. Thus, the decision on which features to implement depends on the users’ feedback, and developers deliberation.
+The “Issues” feature can obviously lead to several problems, namely: Problems in understanding the user requirements if they are not well explained; And/or volatility of the issues/features if the users make requests on whims instead of actual needs; Different and/or conflicting views of the project's objectives amongst contributors; Communication problems, possibly hampered by language barriers,  which can lead to difficulties in understanding what requirements the users intend to convey. In practice, “Issues” (i.e., bugs and new features) can be classified according to several aspects, namely Bug, Duplicate, Enhancement, Invalid, Question and Wontfix. Thus, the decision on which features to implement can often rely a bit too much on the developer's own view of the projects and objectives while perhaps not giving enough emphasis on the collective desires of the user base.
 
 [1] Ian Sommerville and Pete Sawyer, Requirements Engineering: A Good Practice Guide. ISBN: 978-0471974444, 1997.
  
@@ -56,14 +56,18 @@ The “Issues” feature is can obviously lead to several problems. Namely, it i
 <div id='usecases'>
 
 ## Use Cases
-* As a user i want to change options so i can customize the look and feel of my presentation, including author info, stylesheets, and custom templates.
-* As a user i want to be able to add my own themes so i can make the slides my own
-* As a user i want to be able to navigate through my presentation with keyboard buttons so i can easily move throughs slides
+
+### Stakeholders
+
+The only stakeholder in the application is the User, that is, any individual that makes use of the application.
+
+### User stories
+
+* As a User, I want to edit my options so I can customize the look and feel of my presentation, which includes author info, stylesheets, and custom templates;
+* As a User, I want to be able to add my own themes so I can make the slides my own with deeper customization options;
+* As a User, I want to be able to navigate through my presentation with keyboard buttons so I can easily move through the slides;
 
 <img src="./images/use_case_diagram.png"/>
-
-
-
 
 <div id='domainmodel'>
 
@@ -71,4 +75,4 @@ The “Issues” feature is can obviously lead to several problems. Namely, it i
 
 The domain model for Cleaver is relatively simple, with its conceptual classes mostly consisting of a **Core** class representing the application itself and a **Theme** class, representing the theme plugin supported by the application:
 
-<center><img src="./images/domainmodel.png" /><center>
+<img src="./images/domainmodel.png" />
