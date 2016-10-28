@@ -10,6 +10,14 @@
 <div id='introreq'>
 
 ## Requirements
+Requirements are described by Sommerville and Sawyer as “descriptions of how the system should behave, or of a system property or attribute” [1]. In the cleaver project, we can identify two distinct requirement specification stages. The first stage, corresponding to the beginning of the project, is related to the developer motivations. In this stage was defined the scope and the initial set of requirements. The second stage corresponds to the continuous and incremental development of the project. This stage started with the project public release, and is still ongoing. It is possible to say that the project authors adopted an iterative development methodology, where in each iteration new features are being added.
+As so, the boundaries of the project were defined in the initial stage by its main purpose: "simplest way to generate static HTML presentations from a simple JSON format” [2]. The authors established also the intended programming and definition languages, namely Javascript, JSON and HTML. It is possible to state that the requirements were derived from the developers social observation and analysis, in order to support people work. Also, the developers filled a gap in the slideshow context, by presenting a novel approach. As part of the requirements was also the specification of the framework supporting the application, namely NodeJS. 
+In the second stage, the requirements where additionally defined by the final users (the system stakeholders). Concerning the addition of requirements, the GitHub platform has the "Issues" feature, which allows users to submit issues found in the application, or request new features.
+The “Issues” feature is can obviously lead to several problems. Namely, it is possible to identify the following ones: problems of understanding the users;  and/or volatility of the issues/features (resulting from different users’ languages), different and/or conflicting views of the project objectives; possible ambiguous requirements;  communication failures, possibly hampered by language barriers,  which can lead to difficulties in understanding what requirements the users intended to convey. In practice, “Issues” (i.e., bugs and new features) can be classified according to several aspects, namely unlabeled, bug, duplicate, enhancement, invalid, question and wontfix. Thus, the decision on which features to implement depends on the users’ feedback, and developers deliberation.
+
+[1] Ian Sommerville and Pete Sawyer, Requirements Engineering: A Good Practice Guide. ISBN: 978-0471974444, 1997. 
+[2] [Cleaver website](https://github.com/jdan/cleaver)
+
 
 <div id='specreqandfeat'>
 
