@@ -2,14 +2,15 @@
 
 ## Table of Contents
 * [Cleaver](#cleaver)
-    * [Requirements](#introreq)
+    * [Cleaver's Requirements](#introreq)
         * [Specific Requirements and Features](#specreqandfeat)
         * [Use Cases](#usecases)
         * [Domain Model](#domainmodel)
+    * [Contribution of Team Members](#contributions)
 
 <div id='introreq'>
 
-## Requirements
+## Cleaver's Requirements
 Requirements are described by Sommerville and Sawyer as “descriptions of how the system should behave, or of a system property or attribute” [1]. In Cleaver, we can identify two distinct requirement specification stages: The first stage, corresponding to the beginning of the project, is related to the developer motivations. In this stage the scope of the project was defined as well as the initial set of requirements. The second stage corresponds to the continuous and incremental development of the project. This stage started with the project's public release, and is still ongoing. It is possible to see that the project authors adopted an iterative development methodology, where with each iteration new features are added.
 
 As so, the boundaries of the project were defined in the initial stage by its main purpose: "simplest way to generate static HTML presentations from a simple JSON format” [2]. The author also established the intended programming and definition languages, namely Javascript. It is possible to state that the requirements were derived from the developer's social observation and analysis, in order to support an easier workflow for people willing to learn Markdown. The developer also tried to fill a gap in the slideshow context, by going with this Markdown-oriented approach. As part of the requirements was also the specification of the framework supporting the application, namely NodeJS. 
@@ -57,18 +58,20 @@ The “Issues” feature can obviously lead to several problems, namely: Problem
 
 ## Use Cases
 
-### Stakeholders
+### Actors
 
-The only stakeholder in the application is the User, that is, any individual that makes use of the application.
+The only actor in the application is the User, that is, an individual that makes use of the application to create his slideshow.
 
 ### User stories
 
-* As a User, I want to edit my options so I can customize the look and feel of my presentation, which includes author info, stylesheets, and custom templates;
-* As a User, I want to be able to edit each slide individually so that I can add an unique look to an individual slide to allow it to stand out;
-* As a User, I want to be able to add my own themes so I can make the slides my own with deeper customization options;
-* As a User, I want to be able to navigate through my presentation with keyboard buttons so I can easily move through the slides;
-* As a User, I want to be able to export my presentation as a PDF so that I can share it more easily (e.g. Slideshare);
-* As a User, I want to be able to present my slides in full screen so that my presentation is the focus of the audience's attention;
+| Name | Description |
+| ---- | ----------  |
+| Edit a slideshow's options | As a User, I want to edit my slideshow's options so I can customize the look and feel of my presentation, which includes author info, stylesheets, and custom templates |
+| Edit a slide's look | As a User, I want to be able to edit each slide individually so that I can add an unique look to an individual slide to allow it to stand out |
+| Add a theme to a slideshow | As a User, I want to be able to add a theme to a slideshow so I can make slides my own with the deeper customization options added by a theme |
+| Navigate through a slideshow with a keyboard | As a User, I want to be able to navigate through my slideshow with the keyboard buttons so I can easily move through the slides |
+| Export a slideshow as a PDF | As a User, I want to be able to export my slideshow as a PDF so that I can share it more easily (e.g. Slideshare) |
+| Fullscreen presentation of a slideshow | As a User, I want to be able to present my slideshow in full screen so that my presentation is the focus of the audience's attention |
 
 <img src="./images/use_case_diagram.png"/>
 
@@ -76,6 +79,15 @@ The only stakeholder in the application is the User, that is, any individual tha
 
 ## Domain Model
 
-The domain model for Cleaver is relatively simple, with its conceptual classes mostly consisting of a **Core** class representing the application itself and a **Theme** class, representing the theme plugin supported by the application:
+The domain model for Cleaver is fairly simple, with its conceptual classes mostly consisting of a **Core** class representing the application itself and a **Theme** class, representing the theme plugin supported by the application:
 
 <img src="./images/domainmodel.png" />
+
+## Contribution of Team Members
+
+| Team member | Contribution |
+| ----------  | ------------ |
+| André Correia | [Functional and non-functional requirements](#specreqandfeat) and fleshing out user stories |
+| João Mendonça | [Use Cases](#usecases) and further fleshing out user stories |
+| Luís Couto | [Cleaver's requirements](#introreq) | 
+| Nuno Silva | [Domain Model](#domainmodel) and fleshing out user stories |
