@@ -83,6 +83,8 @@ The domain model for Cleaver is fairly simple, with its conceptual classes mostl
 
 <img src="./images/domainmodel.png" />
 
+<div id='contributions'>
+
 ## Contribution of Team Members
 
 | Team member | Contribution |
