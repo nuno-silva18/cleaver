@@ -64,6 +64,8 @@ The only actor in the application is the User, that is, an individual that makes
 
 ### User stories
 
+<img src="./images/use_case_diagram.png"/>
+
 | Name | Description |
 | ---- | ----------  |
 | Edit a slideshow's options | As a User, I want to edit my slideshow's options so I can customize the look and feel of my presentation, which includes author info, stylesheets, and custom templates |
@@ -72,8 +74,6 @@ The only actor in the application is the User, that is, an individual that makes
 | Navigate through a slideshow with a keyboard | As a User, I want to be able to navigate through my slideshow with the keyboard buttons so I can easily move through the slides |
 | Export a slideshow as a PDF | As a User, I want to be able to export my slideshow as a PDF so that I can share it more easily (e.g. Slideshare) |
 | Fullscreen presentation of a slideshow | As a User, I want to be able to present my slideshow in full screen so that my presentation is the focus of the audience's attention |
-
-<img src="./images/use_case_diagram.png"/>
 
 <div id='domainmodel'>
 
