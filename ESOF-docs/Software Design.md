@@ -3,7 +3,7 @@
 ## Table of Contents
 * [Cleaver](#cleaver)
     * [Software Design](#introreq)
-        * [Introduction to Software Architecture and the 4+1 Architectural View Model](#introduction)
+        * [Introduction to Software Architecture](#introduction)
         * [Logical View](#logicview)
         * [Development View](#dvpview)
         * [Deployment View](#dployview)
