@@ -38,6 +38,8 @@
 <div id='prcssview'>
 
 ## Process View
+firs idea:
+<img src="./images/process_view.png"/>
 
 
 
@@ -50,6 +52,6 @@
 | Team member | Contribution |
 | ----------  | ------------ |
 | André Correia | [Functional and non-functional requirements](#specreqandfeat) and fleshing out user stories |
-| João Mendonça | [Use Cases](#usecases) and further fleshing out user stories |
+| João Mendonça | [Process View](#prcssview) |
 | Luís Couto | [Cleaver's requirements](#introreq) | 
 | Nuno Silva | [Domain Model](#domainmodel) and fleshing out user stories |
