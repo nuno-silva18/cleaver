@@ -13,10 +13,6 @@
         * [Process View](#prcssview)
     * [Contribution of Team Members](#contributions)
 
-<div id='cleaver'>
-
-# Cleaver
-
 <div id='intro-sd'>
 
 ## Software Design
