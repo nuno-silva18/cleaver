@@ -60,7 +60,7 @@ Taking into consideration the MVC pattern and the project’s source code, the p
 
 ## Logical View
 
-
+<img src="./images/logical-view.png" />
 
 <div id='dvpview'>
 
@@ -90,5 +90,5 @@ firs idea:
 | ----------  | ------------ |
 | André Correia | [Functional and non-functional requirements](#specreqandfeat) and fleshing out user stories |
 | João Mendonça | [Process View](#prcssview) |
-| Luís Couto | [Cleaver's requirements](#introreq) | 
+| Luís Couto | [Logical View](#logicview) | 
 | Nuno Silva | [Introduction to Software Architecture and the 4+1 Architectural View Model](#introduction) and [Deployment View](#dployview) |
