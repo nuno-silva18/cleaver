@@ -75,7 +75,6 @@ Taking into consideration the MVC pattern and the project’s source code, the p
 <div id='prcssview'>
 
 ## Process View
-firs idea:
 <img src="./images/process_view.png"/>
 
 
