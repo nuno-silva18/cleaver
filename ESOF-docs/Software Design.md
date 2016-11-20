@@ -85,8 +85,6 @@ Taking into consideration the MVC pattern and the project’s source code, the p
 
 ## Contribution of Team Members
 
-### needs changing
-
 | Team member | Contribution |
 | ----------  | ------------ |
 | André Correia | [Development View](#dvpview) |
