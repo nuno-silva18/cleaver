@@ -66,6 +66,8 @@ Taking into consideration the MVC pattern and the project’s source code, the p
 
 ## Development View
 
+<img src="./images/Components_diagram.png" />
+
 <div id='dployview'>
 
 ## Deployment View
@@ -87,7 +89,7 @@ Taking into consideration the MVC pattern and the project’s source code, the p
 
 | Team member | Contribution |
 | ----------  | ------------ |
-| André Correia | [Functional and non-functional requirements](#specreqandfeat) and fleshing out user stories |
+| André Correia | [Development View](#dvpview) |
 | João Mendonça | [Process View](#prcssview) |
 | Luís Couto | [Logical View](#logicview) | 
 | Nuno Silva | [Introduction to Software Architecture and the 4+1 Architectural View Model](#introduction) and [Deployment View](#dployview) |
