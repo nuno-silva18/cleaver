@@ -2,7 +2,7 @@
 
 ## Table of Contents
 * [Cleaver](#cleaver)
-    * [Software Design](#intro-sd)
+    * [Cleaver's Design](#intro-sd)
         * [Introduction to Software Architecture and the 4+1 Architectural View Model](#introduction)
             * [What is software architecture?](#introduction-sa)
             * [The 4+1 Architectural View Model](#introduction-vm)
