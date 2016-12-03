@@ -57,6 +57,16 @@ There are no test statistics and analytics that can be made explicit, seeing as 
 
 ## Bug and Correction
 
+We have manually analysed the project and with tool-based analysis, in his requirements specs and his code and we have note found significant bugs.
+It has no unit/automated tests defined, and testing is apparently done by the develper himself and later by users on release. The developer usually fixes reported bugs (when confirmed).
+Although the tests performed do not prove the absence of bugs, the scarce amount of code of the project and its low complexity reduce statistically the probability of their existence.
+
+We can point to a bug found: the program  requires a settings.json file to exist for local themes (but not for remote theme), which can lead to a ENOENT ("Error no entry").
+In the requirements, it is stated that the program should only read available files, as "they are optional".
+
+
+
+
 <div id='contributions'>
 
 ## Contribution of Team Members
@@ -65,5 +75,5 @@ There are no test statistics and analytics that can be made explicit, seeing as 
 | ----------  | ------------ |
 | André Correia | [Software Testability and Reviews](#testandrev) |
 | João Mendonça | [Use Cases](#usecases) and further fleshing out user stories |
-| Luís Couto | [Cleaver's requirements](#introreq) | 
+| Luís Couto | [Bug and Correction](#bug) | 
 | Nuno Silva | [Verification and Validation in Cleaver](#verifvalidcleaver) |
