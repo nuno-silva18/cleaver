@@ -62,8 +62,8 @@ It has no unit/automated tests defined, and testing is apparently done by the de
 
 Although the tests performed do not prove the absence of major bugs, the scarce amount of code of the project and its low complexity reduce statistically the probability of their existence.
 
-We can point to a bug found: the program  requires a settings.json file to exist for local themes (but not for remote theme), which can lead to a ENOENT ("Error no entry").
-In the requirements, it is stated that the program should only read available files, as "they are optional".
+We can point to a validation error: the program  requires a settings.json file to exist for local themes (but not for remote theme), which can lead to a ENOENT ("Error no entry").
+In the requirements, it is stated that the program should only read available files, as "they are optional". That means that the objective isn't fulfilled therefore,the precondition does not hold in the post-condition.
 
 
 
@@ -75,6 +75,6 @@ In the requirements, it is stated that the program should only read available fi
 | Team member | Contribution |
 | ----------  | ------------ |
 | André Correia | [Software Testability and Reviews](#testandrev) |
-| João Mendonça | [Use Cases](#usecases) and further fleshing out user stories |
+| João Mendonça | [Bug and Correction](#bug) |
 | Luís Couto | [Bug and Correction](#bug) | 
 | Nuno Silva | [Verification and Validation in Cleaver](#verifvalidcleaver) |
