@@ -100,6 +100,8 @@ While this is true of remote themes, it seems that the settings.json file requir
 
 In order to correct this bug, we used Github user [Izrski's suggestion](https://github.com/jdan/cleaver/issues/147#issuecomment-184599270), which, while it allows the program to run, it does lead to less robustness in Cleaver, seeing as how it ignores important errors through this method.
 
+**[Pull Request](https://github.com/jdan/cleaver/pull/160)**
+
 ## Contribution of Team Members
 
 | Team member | Contribution |
