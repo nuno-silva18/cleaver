@@ -8,7 +8,9 @@
     * [Verification and Validation in Cleaver](#verifvalidcleaver)
         * [What is JSHint?](#jshint)
         * [Test Statistics and Analytics](#teststats)
-    * [Bug and Correction](#bug)
+    * [Bug and Correction](#bugandfix)
+        * [What is the Bug?](#bug)
+        * [Bug Correction](#bugfix)
     * [Contribution of Team Members](#contributions)
 
 <div id='testandrev'>
@@ -73,28 +75,36 @@ The developers of JSHint note that, while the tool can detect multiple different
 
 There are no test statistics and analytics that can be made explicit, seeing as how Cleaver does not feature any kind of software testing in its test suite.
 
-<div id='bug'>
+<div id='bugandfix'>
 
 ## Bug and Correction
 
-We have manually analysed the project and with tool-based analysis, in its requirements specs and code and we have not found significant bugs.
-It has no unit/automated tests defined, and testing is apparently done by the develper himself and later by users, on release and the developer usually fixes reported bugs (when confirmed).
+<div id='bug'>
 
-Although the tests performed do not prove the absence of major bugs, the scarce amount of code of the project and its low complexity reduce statistically the probability of their existence.
+### What is the Bug?
 
-We can point to a validation error: the program  requires a settings.json file to exist for local themes (but not for remote theme), which can lead to a ENOENT ("Error no entry").
-In the requirements, it is stated that the program should only read available files, as "they are optional". That means that the objective isn't fulfilled therefore,the precondition does not hold in the post-condition.
+After manually analyzing the project as well as its issue tracker on Github, we were able to identify the following [bug](https://github.com/jdan/cleaver/issues/147): [Cleaver's documentation on its themes plugin](https://github.com/jdan/cleaver/blob/master/docs/themes.md) specifies that a theme is composed by the following files:
+> * style.css - styles for your presentation
+> * template.mustache - a template used to render the slides in your presentation
+> * layout.mustache - a template used to render the entire document of your presentation
+> * script.js - javascript to be included in your slideshow
 
+The documentation also specifies:
+> A theme does not need to contain all of these files, only the ones present will be loaded into your slideshow.
 
+While this is true of remote themes, it seems that the settings.json file requires local themes to include all the files that compose a theme, and the program will not run while every file isn't specified on the settings.json theme, throwing an ENOENT ("ERROR NO ENTRY") bug.
 
+<div id='bugfix'>
 
-<div id='contributions'>
+### Bug Correction
+
+In order to correct this bug, we used Github user [Izrski's suggestion](https://github.com/jdan/cleaver/issues/147#issuecomment-184599270), which, while it allows the program to run, it does lead to less robustness in Cleaver, seeing as how it ignores important errors through this method.
 
 ## Contribution of Team Members
 
 | Team member | Contribution |
 | ----------  | ------------ |
 | André Correia | [Software Testability and Reviews](#testandrevintro) |
-| João Mendonça | [Bug and Correction](#bug) |
-| Luís Couto | [Bug and Correction](#bug) | 
-| Nuno Silva | [Verification and Validation in Cleaver](#verifvalidcleaver) and [Software Testability and Reviews in Cleaver](#testandrevcleaver) |
+| João Mendonça | [Bug and Correction](#bugandfix) |
+| Luís Couto | [Bug and Correction](#bugandfix) | 
+| Nuno Silva | [Verification and Validation in Cleaver](#verifvalidcleaver), [Software Testability and Reviews in Cleaver](#testandrevcleaver) and [Bug and Correction](#bugandfix)|
