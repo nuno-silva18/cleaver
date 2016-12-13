@@ -25,28 +25,28 @@ The greatest difficulty in the evolution and maintenance of the same will be lim
 
 ### Analyzing Better Code Hub's Results
 
-After automatic computation of the metrics of the program using the service https://bettercodehub.com/, it registered a total of 7 (in 10).
-The analysis revealed gaps previously mentioned by us and added new ones.
+After automatic computation of the metrics of the program using the service https://bettercodehub.com/, it registered a total socre of 7 (in 10).
+The analysis revealed gaps previously mentioned by us and added new ones:
 
-The report revealed that there are some units of code in short enough, having 3 with between 30 and 60 lines of code and 6 with between 15 and 30 lines of code, but there are none with more than 60 lines of code. It is suggested to splice them into smaller units of code, with up to 15 lines of code.
+ - The report revealed that there are some units of code not short enough, having 3 with between 30 and 60 lines of code and 6 with between 15 and 30 lines of code, but there are none with more than 60 lines of code. It is suggested to splice them into smaller units of code, with up to 15 lines of code.
 
-The analysis also revealed that there are units of code candidates for refactoring because they have more than 5 branch points, 2 of which have between 10 and 25 branch points, so it is suggested to reduce complexity by extracting sub-branches to separate units of no more than 5 branch points.
+ - The analysis also revealed that there are units of code candidates for refactoring because they have more than 5 branch points, 2 of which have between 10 and 25 branch points, so it is suggested to reduce complexity by extracting sub-branches to separate units of no more than 5 branch points.
 
-As far as code duplication is concerned, no problems were detected and therefore there are no suggestions for changes at this level.
+ - As far as code duplication is concerned, no problems were detected and therefore there are no suggestions for changes at this level.
 
-As for unit interfaces size, only 2 refactoring candidates with between 2 and 4 per unit parameters have been reported, but these remain within the recommended maximum limit of 4 to ensure units easier to understand and reuse.
+ - As for unit interfaces size, only 2 refactoring candidates with between 2 and 4 per unit parameters have been reported, but these remain within the recommended maximum limit of 4 to ensure units easier to understand and reuse.
 
-At the module separation level, no problems were reported, ensuring improved safety when changes are required so that they do not affect other unwanted parts.
+ - At the module separation level, no problems were reported, ensuring improved safety when changes are required so that they do not affect other unwanted parts.
 
-Also, at the level of the coupling between architecture components, no problem was reported, so the components are isolated at the outset.
+ - Also, at the level of the coupling between architecture components, no problem was reported, so the components are isolated at the outset.
 
-The program has still successfully passed the balancing tests of the architecture components, which indicates a correct balancing number in the number and relative size of components.
+ - The program has still successfully passed the balancing tests of the architecture components, which indicates a correct balancing in the number and relative size of components.
 
-As expected and already pointed out by us, the tests indicated a small codebase, capable of improving maintainability.
+ - As expected and already pointed out by us, the tests indicated a small codebase, capable of improving maintainability.
 
-It was also expected to fail in the analysis of automate tests, nonexistent in the 485 lines of code, as we have already been several times pointed out, so it is strongly suggested to implement them, for a more predictable and less risky Some test code and one assertion as it is a small system.
+ - As also expected it failled in the analysis of automate tests, nonexistent in the 485 lines of code, as we have already been several times pointed out, so it is strongly suggested to implement them, for a more predictable and less risky development. Some test code and at least one assertion is required, as it is a small system.
 
-Finally, as to the cleanliness of the code, 3 modules were identified that are susceptible of search and remove of code smells, as clean code is more maintainable.
+ - Finally, as to the cleanliness of the code, 3 modules were identified that are susceptible of search and remove of code smells, as clean code is more maintainable.
 
 ## Feature Evolution Process
 
