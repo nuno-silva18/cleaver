@@ -19,7 +19,9 @@
 
 ### Analyzing Cleaver's Code
 
-<div id='anbch'>
+Although the evolution of the cl does not represent a critical need and with great economic value, the truth is that the program has been evolving in a regular way for more than 4 years. During this time, it was altered in order to maintain its original utility, correcting detected errors, maintaining or increasing its general quality, without increasing its complexity considerably and therefore without a considerable increase in the cost of its maintenance.
+
+The greatest difficulty in the evolution and maintenance of the same will be limited to the scarce human resources available to ensure the same, although this is facilitated by the adequate documentation developed and by the simplicity and structure of the program, even if there is a lack of automation in the tests.
 
 ### Analyzing Better Code Hub's Results
 
@@ -59,5 +61,5 @@ Feature testing wise, due to time constrictions and a lack of a test suite to gu
 | ----------  | ------------ |
 | André Correia | [Software Testability and Reviews](#testandrevintro) |
 | João Mendonça | [Bug and Correction](#bugandfix) |
-| Luís Couto | [Bug and Correction](#bugandfix) | 
+| Luís Couto | [Software Maintainability](#softwareMaintainability) | 
 | Nuno Silva | [Feature Evolution Process](#evoproc) |
