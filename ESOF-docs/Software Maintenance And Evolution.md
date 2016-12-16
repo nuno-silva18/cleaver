@@ -23,6 +23,7 @@ Although the evolution and maintainability of Cleaver does not represent a criti
 
 The greatest difficulty in the evolution and maintenance of the same will be limited to the scarce human resources available to ensure the same, although this is facilitated by the adequate documentation developed and by the simplicity and structure of the program, even if there is a lack of automation in the tests.
 
+<div id='anbch'>
 ### Analyzing Better Code Hub's Results
 
 After automatic computation of the metrics of the program using the service https://bettercodehub.com/, it registered a total socre of 7 (in 10).
@@ -81,6 +82,6 @@ Feature testing wise, due to time constrictions and a lack of a test suite to gu
 | Team member | Contribution |
 | ----------  | ------------ |
 | André Correia | [Software Testability and Reviews](#testandrevintro) |
-| João Mendonça | [Bug and Correction](#bugandfix) |
+| João Mendonça | [Bug and Correction](#evoproc) |
 | Luís Couto | [Software Maintainability](#softwareMaintainability) | 
 | Nuno Silva | [Feature Evolution Process](#evoproc) |
