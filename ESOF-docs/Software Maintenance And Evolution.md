@@ -15,6 +15,17 @@
 
 ## Software Maintainability
 
+In software development, during the maintenance phase of a software system, there is a continuous stream of issues that need to be resolved (corrective and adaptive maintenance) and enhancement requests that have to be met (perfective maintenance). The efficiency and effectiveness with which issues can be resolved and enhancements can be realized is therefore important for stakeholders.
+Fast issue resolution and enhancements means less maintenance costs, because less maintenance personnel is needed. Fast enhancements mean shorter time-to-market of new products and services supported by the system. 
+
+Another reason that makes maintainability a special aspect of software quality is that it acts as an enabler for other quality characteristics. When a system has high maintainability it will be easier to make improvements in the other quality aspects.
+
+Sometimes they are small, local modifications. Sometimes it involves more invasive restructuring. All modifications require finding a specific piece of source code and analyzing it. Understanding its inner logic and its position in the business process that the system facilitates. Analyzing dependencies between different pieces of code and testing them. Pushing them through the development pipeline. In any case, in a more maintainable system these modifications are easier to make, allowing you to pull off quality optimizations faster and more effectively.
+
+SIG (Software Improvement Group) has collected empirical evidence that issue resolution and enhancements are twice as fast in systems with above average maintainability than in systems with below average maintainability. SIG divides the systems in the benchmark in stars, ranging from 1 star (hardest to maintain) to 5 stars (easiest to maintain). Thus in the benchmark the systems that are among the top 5% are rated 5 stars. In these systems, there are still violations to the guidelines, but much fewer than in systems rated below. The star ratings serve as a predictor for actual system maintainability. SIG has collected empirical evidence that issue resolution and enhancements are twice as fast in systems with 4 stars than in systems with 2 stars. The systems in the benchmark are ranked based on their metric quality profiles.[1]
+
+[1] Visser, J. (2016) Building Maintainable Software, 1ª ed. O'Reilly Media, Inc.
+
 <div id='ancode'>
 
 ### Analyzing Cleaver's Code
@@ -81,7 +92,7 @@ Feature testing wise, due to time constrictions and a lack of a test suite to gu
 
 | Team member | Contribution |
 | ----------  | ------------ |
-| André Correia | [Software Testability and Reviews](#testandrevintro) |
+| André Correia | [Software Maintainability](#softwareMaintainability) |
 | João Mendonça | [Bug and Correction](#evoproc) |
 | Luís Couto | [Software Maintainability](#softwareMaintainability) | 
 | Nuno Silva | [Feature Evolution Process](#evoproc) |
