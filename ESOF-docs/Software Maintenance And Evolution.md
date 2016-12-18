@@ -82,6 +82,7 @@ Developing our feature using the code developed for this command was fairly stra
 
 Feature testing wise, due to time constrictions and a lack of a test suite to guide us in developing software tests for Cleaver, we decided to download a theme and use it locally, making changes to it and seeing if those changes were applied instead of developing a software test for the feature. We concluded that our feature was working based on this informal software testing method, and since no bugs came up during our feature testing or using the JSHint tool, we decided to create a pull request for our feature. 
 
+<img src="./images/print_usage_new_features.png"/>
 ### Pull Request
 
 **[Link to pull request](https://github.com/jdan/cleaver/pull/160)**
