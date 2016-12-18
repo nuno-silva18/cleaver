@@ -60,6 +60,8 @@ The analysis revealed gaps previously mentioned by us and added new ones:
 
  - Finally, as to the cleanliness of the code, 3 modules were identified that are susceptible of search and remove of code smells, as clean code is more maintainable.
 
+ <div id='evoproc'>
+
 ## Feature Evolution Process
 
 <div id='featidreason'>
@@ -85,7 +87,7 @@ Feature testing wise, due to time constrictions and a lack of a test suite to gu
 <img src="./images/print_usage_new_features.png"/>
 ### Pull Request
 
-**[Link to pull request](https://github.com/jdan/cleaver/pull/160)**
+**[Link to pull request](https://github.com/jdan/cleaver/pull/161)**
 
 <div id='contributions'>
 
