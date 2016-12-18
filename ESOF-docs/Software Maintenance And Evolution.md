@@ -76,7 +76,7 @@ Once we identified the feature we wanted to evolve, we decided to go over Cleave
 
 <img src="./images/cleaver-watch-code.png" />
 
-Developing our feature using the code developed for this command was fairly straightforward: We simply added a check to make sure the theme specified was local (as the feature requested specified watching for changes on local themes), got all the files in the local theme's directory and used JavaScript's `watchFile()` function to watch for changes on each of the files in the local theme's directory. The code developed for this feature is the following:
+Developing our feature using the code developed for this command was fairly straightforward: We simply added a check, in the binary file,to make sure the theme specified was local (as the feature requested specified watching for changes on local themes), got all the files in the local theme's directory and used JavaScript's `watchFile()` function to watch for changes on each of the files in the local theme's directory. The code developed for this feature is the following:
 
 <img src="./images/new-feature-code.png" />
 
@@ -93,6 +93,6 @@ Feature testing wise, due to time constrictions and a lack of a test suite to gu
 | Team member | Contribution |
 | ----------  | ------------ |
 | André Correia | [Software Maintainability](#softwareMaintainability) |
-| João Mendonça | [Bug and Correction](#evoproc) |
+| João Mendonça | [Feature Evolution Process with Nuno and pull request](#evoproc) |
 | Luís Couto | [Software Maintainability](#softwareMaintainability) | 
 | Nuno Silva | [Feature Evolution Process](#evoproc) |
