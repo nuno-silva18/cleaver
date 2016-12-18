@@ -16,8 +16,9 @@ function createAndSave(files, options, done) {
   files.forEach(function (file) {
     fs.readFile(file, 'utf-8', function (err, contents) {
       if (err) {
-        throw err;
-      }
+		  fs.readFile(options.theme+'\\'+file, 'utf-8', function (err, contents){
+			  if(err)
+					throw err;
 
       var presentation = new Cleaver(contents, options, path.resolve(path.dirname(file)));
 
@@ -34,7 +35,9 @@ function createAndSave(files, options, done) {
           process.exit(1);
         });
     });
-  });
+	}});
+
+});
 }
 
 
@@ -96,7 +99,7 @@ program
     }
     if(options.theme){
       if(fs.existsSync(options.theme)){
-        var files = fs.readdirSync(options.theme);
+		  var files = fs.readdirSync(options.theme);
         files.forEach(function(file){
           console.log('Also watching for changes on ' + file);
           fs.watchFile(file,{persistent:true,interval:100},function(){
